@@ -29,7 +29,7 @@ The [data_analysis.ipynb](src/analysis/data_analysis.ipynb) notebook is the cent
 To get started with the notebook, run:
 
 ```bash
-jupyter notebook notebooks/data_analysis.ipynb
+jupyter notebook src/analysis/data_analysis.ipynb
 ```
 
 ---

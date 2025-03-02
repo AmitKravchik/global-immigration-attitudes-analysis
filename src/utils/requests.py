@@ -2,7 +2,7 @@ import requests
 
 def create_session(connection_pool_size: int = 20) -> requests.Session: 
     """
-    Create a new requests session with a custom connection pool size.
+    Create a new requests session with a custom connection pool size and timeout.
     """
     session = requests.Session()
     headers = {
@@ -13,3 +13,14 @@ def create_session(connection_pool_size: int = 20) -> requests.Session:
     session.mount('http://', adapter)
     session.mount('https://', adapter)
     return session
+
+
+def fetch_html(url: str, session: requests.Session, timeout: int) -> str:
+    response = session.get(url, timeout=timeout)
+    response.raise_for_status()  # raise an HTTPError for bad responses
+
+    # If no encoding is provided, let requests try to guess it
+    if not response.encoding:
+        response.encoding = response.apparent_encoding
+
+    return response.text

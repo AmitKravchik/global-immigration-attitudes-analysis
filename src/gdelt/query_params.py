@@ -74,7 +74,6 @@ class GDELTQuery(BaseModel):
     
     def __str__(self):
         return self.build()
-
         
 
 
@@ -84,7 +83,6 @@ class GDELTRequestParams(BaseModel):
     mode: GDELTMode = Field(GDELTMode.ART_LIST, serialization_alias="mode", description="Output mode (e.g., artlist, tonechart, etc.)")
     start_datetime: Optional[datetime] = Field(None, serialization_alias="STARTDATETIME", description="Start datetime in YYYYMMDDHHMMSS format")
     end_datetime: Optional[datetime] = Field(None, serialization_alias="ENDDATETIME", description="End datetime in YYYYMMDDHHMMSS format")
-    max_records: Optional[int] = Field(250, serialization_alias="maxrecords", description="Maximum number of records to return (max 250)")
     output_format: OutputFormat = Field(OutputFormat.JSON, serialization_alias="format", description="Output format (json, csv, etc.)")
     sort_order: Optional[SortOrder] = Field(None, serialization_alias="sort", description="Sort order (e.g., ToneDesc)")
     timespan: Optional[str] = Field(None, serialization_alias="timespan", description="Time span for the search (e.g., '3months')")

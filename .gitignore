@@ -194,3 +194,6 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode
 .vscode/launch.json
+output2/
+src/analysis/outputs/
+src/artlist_main.py

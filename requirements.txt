@@ -1,0 +1,16 @@
+beautifulsoup4==4.13.3
+bertopic==0.16.4
+loguru==0.7.3
+matplotlib==3.10.1
+nltk==3.9.1
+numpy==2.2.3
+pandas==2.2.3
+plotly==6.0.0
+pydantic==2.10.6
+pydantic_settings==2.8.1
+scikit_learn==1.6.1
+scipy==1.15.2
+seaborn==0.13.2
+spacy==3.8.3
+statsmodels==0.14.4
+wordcloud==1.9.4

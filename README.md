@@ -12,7 +12,7 @@ This repository provides a comprehensive solution for analyzing media tone using
 
 ## Data Analysis Notebook
 
-The [data_analysis.ipynb](notebooks/data_analysis.ipynb) notebook is the centerpiece for exploring the GDELT tone data. Key features include:
+The [data_analysis.ipynb](src/analysis/data_analysis.ipynb) notebook is the centerpiece for exploring the GDELT tone data. Key features include:
 
 - **Interactive Visualizations:**  
   The notebook uses Plotly Express and Plotly Graph Objects to create dynamic charts such as choropleth maps, scatter plots, and time-series visualizations. These visualizations enable you to investigate media tone trends by country, month, or year.

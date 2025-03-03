@@ -1,5 +1,4 @@
-# From Headlines to Policy: Uncovering Media Narratives on
-Immigration Through a Global Lens
+# From Headlines to Policy: Uncovering Media Narratives on Immigration Through a Global Lens
 ## Data Analysis and Visualization of GDELT Tone Chart Data
 
 This repository provides a comprehensive solution for analyzing media tone using data from the [GDELT Project](https://www.gdeltproject.org/). At its core, the project consists of two major components:

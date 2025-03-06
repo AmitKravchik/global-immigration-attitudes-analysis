@@ -142,7 +142,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-This README emphasizes the interactive data analysis and visualization aspect while providing detailed information about the robust pipeline that powers the project. Adjust sections as necessary to better match your project’s specifics and future enhancements.
